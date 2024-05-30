@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 80%;
+    height: 485px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227, 228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    border-radius: 2rem; 
+    margin-left: 4rem;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+  
+}
+ul a:hover{
+    background-color: rgba(0, 0, 0, 0.341);
+    border-radius: 1rem;
+    padding: .5rem;
+    transition: 0.5s;
+    border: 1px solid;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 4rem;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.navbar-link{
+    display: flex;
+    justify-content: end;
+   
+}
+.navbar-link li{
+    padding-right: 2rem;
+}
+i{
+    padding-right: 2rem;
+    color: aliceblue;
+}
+.col{
+    color: aliceblue;
+    padding: 4rem;
+}
+.col h1{
+    font-size: 50px;
+    color: rgb(233, 183, 117);
+}
+.col h1:hover{
+    font-size: 50px;
+    color: rgb(213, 1, 1);
+    transform: translateY(-10px);
+    transition: 0.8s;
+}
+.col span{
+    line-height: 2rem;
+    font-size: 25px;
+}
+.col p{
+    font-size: 13px;
+    line-height: 20px;
+}
+button{
+    margin-top: 2rem;
+    padding: .7rem;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    box-shadow: 2px solid;
+    border: 2px solid rgba(247, 75, 75, 0.67);
+    color: aliceblue;
+    font-weight: bold;
+    
+    background-image: linear-gradient(90deg, rgba(58, 59, 59, 0.782), rgb(175, 2, 2));
+}
+button:hover{
+    transform: translateY(-5px);
+    transition: 0.8s;
+}
+.card{
+    position: absolute;
+    top: 7rem;
+    right: 4rem;
+    width: 10%;
+    height: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227, 228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    border-radius: 2rem; 
+}
