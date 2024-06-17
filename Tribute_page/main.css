@@ -20,21 +20,15 @@ body {
     font-size: 2rem;
     color: rgb(195, 60, 60);
     font-weight: bold;
-    padding-top: 3rem;
+    padding-top: 1.3rem;
     text-transform: uppercase;
 }
 .flower{
     position: absolute;
-    top: 8rem;
-    left: 8.2rem;
-    filter: drop-shadow(30px 10px 20px #d76969);
+    top: -1.3rem;
+    left: 5rem;
+    /* filter: drop-shadow(30px 10px 20px #d76969); */
 }
-.flower:hover{
-    transform: scale(.3s);
-    transform: translateY(-10px);
-    transition: 0.8s;
-}
-
 span{
     color: rgb(73, 36, 48);
     font-size: 1.5rem;
